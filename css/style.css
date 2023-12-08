@@ -1,0 +1,117 @@
+*{
+    font-family: 'calibri';
+    padding: 0;
+    margin: 0;
+    background-color:burlywood;
+}
+
+/* Navigation bar */
+nav li{
+    float: left; /* positions elements in the navbar to the left */
+}
+
+nav ul {
+    list-style: none; /* removes bullet points from list */
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    display: flex; /* positions elements to the right and adds a line break */
+    flex-direction: row-reverse; /* inverts the order of the list in the nav bar */
+}
+
+nav li a {
+    display: block;
+    color: #333;
+    padding: 14px 16px;
+    text-decoration: none; /* removes underlines from ancor tags */
+}
+
+nav li a:hover {
+    background-color: #333; /* on hover change bg color */
+    transition: background-color .3s; /* sets a smooth transition between nav buttons */
+    color: white; /* on hover change text color */
+}
+
+nav .active {
+    text-decoration: underline; /* underline active nav button */
+}
+
+.heading {
+    text-align: center; /* shifts entire heading section to center */
+}
+
+.heading h1 {
+    font-size: 46px; /* specify heading size */
+}
+
+.content {
+    text-align: center; /* center content */
+    padding-bottom: 4%;
+}
+
+.content h2 {
+    padding: 1%; /* space out heading */
+}
+
+.content p {
+    padding: 1%; /* space out paragraphs */
+}
+
+.cover-image { /* cover image properties */
+    width: 298px;
+    height: 421px;
+    padding-left: 1%;
+    box-shadow: 10px 10px 20px -10px #333; /* applys shadow on cover image */
+}
+
+.blog-image {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;  /* applys rounded corners to blog image */
+    box-shadow: 10px 10px 20px -10px #333;  /* applys shadow on blog image */
+}
+
+.blog {
+    text-align: justify;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    margin: 1%;
+    padding: 10px;
+}
+
+hr {
+    margin-top: 2%;
+    border: 0.5px solid #333;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.clock-icon {
+    margin-top: 1%;
+}
+
+footer {
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    padding-top: 1%;
+    
+}

@@ -7,37 +7,43 @@
 
 /* Navigation bar */
 nav li{
-    float: left; /* positions elements in the navbar to the left */
+    /* positions elements in the navbar to the left */
+    float: left; 
 }
 
 nav ul {
-    list-style: none; /* removes bullet points from list */
+    list-style: none; 
 }
 
 nav {
-    display: flex; /* positions elements to the right and adds a line break */
-    flex-direction: row-reverse; /* inverts the order of the list in the nav bar */
+    /* positions elements to the right and adds a line break */
+    display: flex; 
+    /* inverts the order of the list in the nav bar */
+    flex-direction: row-reverse; 
 }
 
 nav li a {
     display: block;
     color: #333;
     padding: 14px 16px;
-    text-decoration: none; /* removes underlines from ancor tags */
+    text-decoration: none; 
 }
 
 nav li a:hover {
-    background-color: #333; /* on hover change bg color */
-    transition: background-color .3s; /* sets a smooth transition between nav buttons */
-    color: white; /* on hover change text color */
+    background-color: #333; 
+    /* sets a smooth transition between nav buttons */
+    transition: background-color .3s; 
+    color: white; 
 }
 
 nav .active {
-    text-decoration: underline; /* underline active nav button */
+    /* underline active nav button */
+    text-decoration: underline; 
 }
 
 .heading {
-    text-align: center; /* shifts entire heading section to center */
+    /* shifts entire heading section to center */
+    text-align: center; 
 }
 
 .heading h1 {
@@ -60,7 +66,8 @@ nav .active {
 .cover-image { /* cover image properties */
     margin-left: 1%;
     margin-right: 1%;
-    box-shadow: 10px 10px 20px -10px #333; /* applys shadow on cover image */
+    /* applys shadow on cover image */
+    box-shadow: 10px 10px 20px -10px #333; 
 }
 
 .blog-image {
@@ -68,8 +75,10 @@ nav .active {
     margin-bottom: 1%;
     width: 300px;
     height: 300px;
-    border-radius: 10px;  /* applys rounded corners to blog image */
-    box-shadow: 10px 10px 20px -10px #333;  /* applys shadow on blog image */
+    /* applys rounded corners to blog image */
+    border-radius: 10px;  
+    /* applys shadow on blog image */
+    box-shadow: 10px 10px 20px -10px #333;  
 }
 
 .blog {
@@ -110,6 +119,8 @@ footer {
     padding-top: 1%;
     
 }
+
+/* responsive media queries */
 
 @media all and (width < 1024px) {
     .cover-image {

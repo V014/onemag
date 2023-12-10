@@ -15,8 +15,6 @@ nav ul {
 }
 
 nav {
-    margin: 0;
-    padding: 0;
     display: flex; /* positions elements to the right and adds a line break */
     flex-direction: row-reverse; /* inverts the order of the list in the nav bar */
 }
@@ -60,8 +58,6 @@ nav .active {
 }
 
 .cover-image { /* cover image properties */
-    width: 298px;
-    height: 421px;
     padding-left: 1%;
     box-shadow: 10px 10px 20px -10px #333; /* applys shadow on cover image */
 }
@@ -114,4 +110,18 @@ footer {
     width: 100%;
     padding-top: 1%;
     
+}
+
+@media all and (width < 320px) {
+    .cover-image {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media all and (width > 720px) {
+    .cover-image {
+        width: 298px;
+        height: 421px;
+    }
 }

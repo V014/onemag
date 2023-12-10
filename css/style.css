@@ -58,7 +58,7 @@ nav .active {
 }
 
 .cover-image { /* cover image properties */
-    padding-left: 1%;
+    margin: 3%;
     box-shadow: 10px 10px 20px -10px #333; /* applys shadow on cover image */
 }
 
@@ -112,14 +112,14 @@ footer {
     
 }
 
-@media all and (width < 320px) {
+@media all and (width < 750px) {
     .cover-image {
         width: 100%;
         height: auto;
     }
 }
 
-@media all and (width > 720px) {
+@media all and (width > 750px) {
     .cover-image {
         width: 298px;
         height: 421px;

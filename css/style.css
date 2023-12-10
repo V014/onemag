@@ -136,8 +136,8 @@ footer {
 
 @media all and (width > 1024px) {
     .cover-image {
-        width: 596px;
-        height: 842px;
+        /* width: 596px; */
+        height: auto;
     }
 
     .blog {

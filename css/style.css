@@ -47,23 +47,30 @@ nav .active {
 }
 
 .heading h1 {
-    font-size: 46px; /* specify heading size */
+    /* specify heading size */
+    font-size: 46px; 
 }
 
+/* targets body content like paragraphs */
 .content {
-    text-align: center; /* center content */
+    text-align: center; 
     padding-bottom: 4%;
+    height: 100lvh;
 }
 
 .content h2 {
-    padding: 1%; /* space out heading */
+    /* space out heading */
+    padding: 1%; 
 }
 
 .content p {
-    padding: 1%; /* space out paragraphs */
+    /* space out paragraphs */
+    padding: 1%; 
 }
 
 .cover-image { /* cover image properties */
+    width: 298px;
+    height: 421px;
     margin-left: 1%;
     margin-right: 1%;
     /* applys shadow on cover image */
@@ -117,29 +124,20 @@ footer {
     bottom: 0;
     width: 100%;
     padding-top: 1%;
-    
 }
 
 /* responsive media queries */
 
+/* screens below 1024px such as tablets and mobile devices */
 @media all and (width < 1024px) {
-    .cover-image {
-        width: 298px;
-        height: 421px;
-    }
-
     .blog {
         margin-left: 20%;
         margin-right: 20%;
     }
 }
 
+/* screens below 1024px such as laptops and desktops */
 @media all and (width > 1024px) {
-    .cover-image {
-        /* width: 596px; */
-        height: auto;
-    }
-
     .blog {
         margin-left: 25%;
         margin-right: 25%;

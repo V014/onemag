@@ -54,8 +54,8 @@ nav .active {
 /* targets body content like paragraphs */
 .content {
     text-align: center; 
-    padding-bottom: 4%;
-    height: 100lvh;
+    height: 100vh;
+    overflow: auto;
 }
 
 .content h2 {
@@ -77,6 +77,10 @@ nav .active {
     box-shadow: 10px 10px 20px -10px #333; 
 }
 
+.blog {
+    text-align: justify;
+}
+
 .blog-image {
     margin-top: 1%;
     margin-bottom: 1%;
@@ -88,10 +92,6 @@ nav .active {
     box-shadow: 10px 10px 20px -10px #333;  
 }
 
-.blog {
-    text-align: justify;
-}
-
 table {
     margin-left: auto;
     margin-right: auto;
@@ -99,7 +99,7 @@ table {
     border-collapse: collapse;
 }
 
-table, th, td {
+table, th, td{
     border: 1px solid black;
 }
 
@@ -117,13 +117,13 @@ hr {
 
 .clock-icon {
     margin-top: 1%;
+    width: auto;
 }
 
 footer {
     text-align: center;
-    bottom: 0;
     width: 100%;
-    padding-top: 1%;
+    padding-top: 2%;
 }
 
 /* responsive media queries */
@@ -131,8 +131,13 @@ footer {
 /* screens below 1024px such as tablets and mobile devices */
 @media all and (width < 1024px) {
     .blog {
-        margin-left: 20%;
-        margin-right: 20%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .blog-image {
+        width: 200px;
+        height: 200px;
     }
 }
 

@@ -1,4 +1,4 @@
-*{
+body{
     font-family: 'calibri';
     padding: 0;
     margin: 0;
@@ -60,11 +60,6 @@ nav .active {
 
 .content h2 {
     /* space out heading */
-    padding: 1%; 
-}
-
-.content p {
-    /* space out paragraphs */
     padding: 1%; 
 }
 

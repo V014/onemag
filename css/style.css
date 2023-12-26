@@ -8,17 +8,6 @@ body {
     background-color:burlywood;
 }
 
-/* button {
-    background-color: #04AA6D;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-} */
-
 /* Navigation bar */
 nav li{
     /* positions elements in the navbar to the left */
@@ -50,7 +39,7 @@ nav li a:hover {
     color: white; 
 }
 
-nav .active {
+nav .active-nav {
     /* underline active nav button */
     text-decoration: underline; 
 }
@@ -69,7 +58,7 @@ nav .active {
 .content {
     text-align: center; 
     height: 100vh;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .content h2 {
@@ -84,6 +73,10 @@ nav .active {
     margin-right: 1%;
     /* applys shadow on cover image */
     box-shadow: 10px 10px 20px -10px #333; 
+}
+
+.row {
+    text-align: center;
 }
 
 .blog {
@@ -157,6 +150,10 @@ footer {
     .blog-image {
         width: 200px;
         height: 200px;
+    }
+
+    .dots {
+        display:none;
     }
 }
 

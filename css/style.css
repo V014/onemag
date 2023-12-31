@@ -44,6 +44,15 @@ nav .active-nav {
     text-decoration: underline; 
 }
 
+.call-action{
+    text-decoration: none;
+    color: #343434;
+}
+
+.call-action :hover {
+    text-decoration: underline;
+}
+
 .heading {
     /* shifts entire heading section to center */
     text-align: center; 
@@ -57,8 +66,6 @@ nav .active-nav {
 /* targets body content like paragraphs */
 .content {
     text-align: center; 
-    height: 100vh;
-    overflow: hidden;
 }
 
 .content h2 {
@@ -94,10 +101,12 @@ nav .active-nav {
     box-shadow: 10px 10px 20px -10px #333;  
 }
 
+/* adds space after paragraph */
 p {
     padding-bottom: 2%;
 }
 
+/* formats the table spaces and maintains one border */
 table {
     margin-left: auto;
     margin-right: auto;
@@ -105,21 +114,26 @@ table {
     border-collapse: collapse;
 }
 
+/* sets solid line for the table and cells */
 table, th, td{
     border: 1px solid black;
     text-align: left;
 }
 
+/* customises the table heading */
 th {
     background-color: #343434;
     color: burlywood;
 }
+
+/* adds space within each cell */
 
 th, td {
     margin: 1%;
     padding: 10px;
 }
 
+/* customises horizontal rules */
 hr {
     margin-top: 2%;
     border: 0.5px solid #333;
@@ -127,11 +141,13 @@ hr {
     margin-right: 30%;
 }
 
+/* formats social media icons on about page */
 .icons {
     margin-top: 1%;
     width: auto;
 }
 
+/* formats footer */
 footer {
     text-align: center;
     width: 100%;
@@ -142,6 +158,9 @@ footer {
 
 /* screens below 1024px such as tablets and mobile devices */
 @media all and (width < 1024px) {
+    .content {
+        height: auto;
+    }
     .blog {
         margin-left: 15%;
         margin-right: 15%;

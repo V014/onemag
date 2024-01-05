@@ -8,6 +8,16 @@ body {
     background-color:burlywood;
 }
 
+.dropcap::first-letter {
+    font-size: 3rem;
+    font-weight: 600;
+
+    float: left;
+    line-height: 2rem;
+
+    margin-right: 0.5rem;
+}
+
 /* Navigation bar */
 nav li{
     /* positions elements in the navbar to the left */

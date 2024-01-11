@@ -88,8 +88,17 @@ nav .active-nav {
     height: 421px;
     margin-left: 1%;
     margin-right: 1%;
-    /* applys shadow on cover image */
-    box-shadow: 10px 10px 20px -10px #333; 
+}
+
+.cover-image:hover {
+    /* adds shadow on blog image */
+    box-shadow: 10px 10px 20px -10px #333;
+    /* adds smooth transistion of shadow */
+    transition: box-shadow 0.3s ease-in;
+    /* adds smooth transition of zoom in effect */
+    transition: ease-in 0.3s;
+    /* adds effect to zoom in subject */
+    transform: scale(1.02);
 }
 
 .row {
@@ -105,10 +114,19 @@ nav .active-nav {
     margin-bottom: 1%;
     width: 300px;
     height: 300px;
-    /* applys rounded corners to blog image */
+    /* adds rounded corners to blog image */
     border-radius: 10px;  
-    /* applys shadow on blog image */
-    box-shadow: 10px 10px 20px -10px #333;  
+}
+
+.blog-image:hover {
+    /* adds shadow on blog image */
+    box-shadow: 10px 10px 20px -10px #333;
+    /* adds smooth transistion of shadow */
+    transition: box-shadow 0.3s ease-in;
+    /* adds smooth transition of zoom in effect */
+    transition: ease-in 0.3s;
+    /* adds effect to zoom in subject */
+    transform: scale(1.05);
 }
 
 /* adds space after paragraph */

@@ -104,11 +104,11 @@ cover-image:hover {
     /* adds effect to zoom in subject */
     transform: scale(1.05);
 
-    background-image: url('../img/forest.jpg');
+    /* background-image: url('../img/forest.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed; */
 }
 
 .row {

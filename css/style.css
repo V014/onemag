@@ -5,7 +5,11 @@
 
 body {
     font-family: 'calibri';
-    background-color: burlywood;
+    background-image: url('../img/background.png');
+    background-repeat: no-repeats;
+    background-size: cover;
+    background-position: bottom left;
+    background-attachment: fixed;
 } 
 
 /* .drop-cap::first-letter {
@@ -190,9 +194,13 @@ hr {
     width: auto;
 }
 
-/* formats a form */
-form {
-
+/* formatting input */
+input, select{
+    padding: 1%;
+    border-radius: 10px;
+    border-style: none;
+    margin-bottom: 2%;
+    width: 25%;
 }
 
 /* formats footer */

@@ -19,26 +19,47 @@
     <!-- heading section -->
     <div class="heading">
         <h1>Read</h1>
-        <p>Content about <b>One Mag</b></b> free today!</p>
+        <p>This feature is still under construction!</p>
         <!-- <img src="img/onemag-business-ad2-2022.jpg" alt="One magazine blog image" class="blog-image" /> -->
     </div>
     <!-- content section -->
     <div class="content">
         <img src="img/downloads-icon.png" alt="download icon" class="icons"> 
-        <p><i>Fill in these details</i></p>        
+        <p><i>Fill in these details</i></p>    
         <form method="post" action="#">
+            <label>Full Name</label>
+            <br />
             <input type="text" placeholder="Your name" name="name" />
             <br />
-            <input type="text" placeholder="Your location" name="location" />
+            <label>Delivery to</label>
+            <br />
+            <input type="email" placeholder="Email Address" name="location" />
+            <br />
+            <label>Contact details</label>
+            <br />
+            <input type="number" placeholder="Phone number" name="contact" />
+            <br />
+            <label>Payment method</label>
+            <br />
+            <select>
+                <option>Airtel Money</option>
+                <option>Tnm Mpamba</option>
+                <option>Mo626</option>
+                <option>Hard Cash</option>
+            </select>
+            <br />
+            <label>Nature of magazine</label>
             <br />
             <select>
                 <option>Digital</option>
                 <option>Physical</option>
             </select>
+            <br />
+            <input type="submit" value="Order" name="order" />
         </form>
     </div>
     <footer>
-        One Magazine All rights reserved &copy;2023
+        One Magazine All rights reserved &copy;2024
     </footer>
 </body>
 </html>

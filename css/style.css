@@ -126,6 +126,7 @@ nav .active-nav {
     width: 300px;
     height: 300px;
     /* adds rounded corners to blog image */
+    border-radius: 20px;
 }
 
 .blog-image:hover {
@@ -157,7 +158,7 @@ table {
 }
 
 /* sets solid line for the table and cells */
-td{
+td {
     border: 1px solid rgba(141, 141, 141, 0.151);
     text-align: left;
 }
@@ -187,6 +188,11 @@ hr {
 .icons {
     margin-top: 2%;
     width: auto;
+}
+
+/* formats a form */
+form {
+
 }
 
 /* formats footer */

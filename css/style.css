@@ -5,11 +5,7 @@
 
 body {
     font-family: 'calibri';
-    background-image: url('../img/background.png');
-    background-position: bottom left;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: burlywood;
 } 
 
 /* .drop-cap::first-letter {
@@ -94,7 +90,7 @@ nav .active-nav {
     margin-right: 1%;
 }
 
-cover-image:hover {
+.cover-image:hover {
     /* adds shadow on blog image */
     box-shadow: 10px 10px 20px -10px #333;
     /* adds smooth transition of shadow */
@@ -103,12 +99,6 @@ cover-image:hover {
     transition: ease-in 0.3s;
     /* adds effect to zoom in subject */
     transform: scale(1.05);
-
-    /* background-image: url('../img/forest.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed; */
 }
 
 .row {
@@ -122,6 +112,7 @@ cover-image:hover {
     backdrop-filter: blur(10px); 
     margin: 20px;
     padding: 2%;
+    border-radius: 20px;
 }
 
 .glass {

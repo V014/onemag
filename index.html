@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>one mag</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/button.css" />
+    <link rel="stylesheet" href="css/magnify.min.css" /> 
 </head>
 <body id="body">
     <!-- Navigation list -->
@@ -26,17 +27,13 @@
 
     <!-- content section -->
     <div class="content">
-        <!-- Draggable DIV -->
-        <div id="mydiv">
-            <div id="mydivheader"><img src="img/plus.png" alt="plus icon"></div>
-        </div>
         <h2>Latest Issue</h2>
-        <img src="img/read-ecology-2024/ecology-2024_1.jpg" alt="One Magazine ecology 2024 cover page" class="cover-image" />
+        <img src="img/read-ecology-2024/ecology-2024_cover.jpg" alt="One Magazine ecology 2024 cover page" class="zoom cover-image" data-magnify-src="img/read-ecology-2024/ecology-2024_1.jpg"/>
         <p>The recent issue is about ecology in <b>2024</b>.</p>
         <a href="read/read-ecology-2024.html"><button class="button-50" role="button">Read</button></a>
         <a href="scheme/scheme-ecology-2024.html" class="call-action"><p>Older devices</p></a>
 
-        <img src="img/read-business-2022/business-2022_1.jpg" alt="One Magazine Business 2022 cover page" class="cover-image"/>
+        <img src="img/read-business-2022/business-2022_cover.jpg" alt="One Magazine Business 2022 cover page" class="cover-image zoom"/>
         <p>This issue is about business affairs in <b>2022</b></p>
         <a href="read/read-business-2022.html"><button class="button-50" role="button">Read</button></a>
         <a href="scheme/scheme-business-2022.html" class="call-action"><p>Older devices</p></a>
@@ -45,5 +42,11 @@
         One Magazine All rights reserved &copy;2024
     </footer>
 </body>
-<script src="js/action.js"></script>
+<script src="js/jquery-2.2.4.min.js"> </script> 
+<script src= "js/jquery.magnify.min.js"> </script>
+<script> 
+    $(document).ready(function () { 
+        $(".zoom").magnify(); 
+    }); 
+</script> 
 </html>

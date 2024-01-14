@@ -23,39 +23,47 @@ body {
 } */
 
 /* Navigation bar */
-nav li{
+nav h1{
+    float: left;
+    font-size: 32px; 
+}
+.nav li{
     /* positions elements in the navbar to the left */
     float: left; 
 }
 
-nav ul {
+.nav ul {
     list-style: none; 
 }
 
-nav {
+.nav {
     /* positions elements to the right and adds a line break */
     display: flex; 
     /* inverts the order of the list in the nav bar */
     flex-direction: row-reverse; 
 }
 
-nav li a {
+.nav li a {
     display: block;
     color: #333;
     padding: 14px 16px;
     text-decoration: none; 
 }
 
-nav li a:hover {
+.nav li a:hover {
     background-color: #333; 
     /* sets a smooth transition between nav buttons */
     transition: background-color .3s; 
     color: white; 
 }
 
-nav .active-nav {
+.nav .active-nav {
     /* underline active nav button */
     text-decoration: underline; 
+}
+
+.nav h1 {
+    text-align: left;
 }
 
 .call-action{
@@ -88,21 +96,13 @@ nav .active-nav {
 }
 
 .cover-image { /* cover image properties */
-    /* width: 298px;
-    height: 421px; */
+    width: 298px;
+    height: 421px;
     margin-left: 1%;
     margin-right: 1%;
-}
-
-.cover-image:hover {
     /* adds shadow on blog image */
     box-shadow: 10px 10px 20px -10px #333;
-    /* adds smooth transition of shadow */
-    transition: box-shadow 0.3s ease-in;
-    /* adds smooth transition of zoom in effect */
-    transition: ease-in 0.3s;
-    /* adds effect to zoom in subject */
-    transform: scale(1.05);
+
 }
 
 .row {

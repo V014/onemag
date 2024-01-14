@@ -252,6 +252,11 @@ footer {
     .dots {
         display:none;
     }
+
+    body {
+        background-image: none;
+        background-color: burlywood;
+    }
 }
 
 /* screens below 1024px such as laptops and desktops */

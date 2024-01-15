@@ -262,7 +262,7 @@ footer {
         color: #333;
     }
 
-    li {
+    .nav li a {
         color: white;
     }
 }

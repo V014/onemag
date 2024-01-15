@@ -23,11 +23,7 @@ body {
 } */
 
 /* Navigation bar */
-nav h1{
-    float: left;
-    font-size: 32px; 
-    font-family: 'Times New Roman', Times, serif;
-}
+
 .nav li{
     /* positions elements in the navbar to the left */
     float: left; 
@@ -61,11 +57,6 @@ nav h1{
 .nav .active-nav {
     /* underline active nav button */
     text-decoration: underline; 
-}
-
-.nav h1 {
-    text-align: left;
-    font-family:'Times New Roman', Times, serif;
 }
 
 .call-action{
@@ -207,34 +198,12 @@ footer {
     padding-top: 2%;
 }
 
-#mydiv {
-    position: fixed;
-    z-index: 9;
-    background-color: #f1f1f1;
-    border: 1px solid #d3d3d3; 
-    text-align: center;
-    color: #333;
-    box-shadow: 0 0 5px 0 ; 
-    background: inherit; 
-    backdrop-filter: blur(10px); 
-    border-radius: 200%;
-    padding: 24px;
-  }
-
-  #mydivheader {
-    cursor: move;
-    touch-action: auto;
-    z-index: 10;
-    /* background-color: #2196F3; */
-    
-  }
-
-  div {
+.issues{
     margin-bottom: 5%;
-  }
+}
 
   /* Style The Dropdown Button */
-.dropbtn {
+.hamburger-menu {
     padding: 16px;
     font-size: 24px;
     border: none;
@@ -332,6 +301,22 @@ footer {
     h1 {
         font-size: 24px;
         font-family: 'Times New Roman', Times, serif;
+    }
+
+    img .about{
+        background-image: none;
+        background-image: url('../img/profile.png');
+        background-repeat: no-repeat;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .dropbtn {
+        background-image: url('../img/menu-dark.png');
+        background-repeat: no-repeat;
+        border: #333 solid 1px;
     }
 }
 

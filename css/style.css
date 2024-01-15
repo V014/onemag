@@ -201,14 +201,6 @@ footer {
 .issues{
     margin-bottom: 5%;
 }
-
-  /* Style The Dropdown Button */
-.hamburger-menu {
-    padding: 16px;
-    font-size: 24px;
-    border: none;
-    cursor: pointer;
-  }
   
   /* The container <div> - needed to position the dropdown content */
   .dropdown {
@@ -235,19 +227,20 @@ footer {
     display: block;
   }
   
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #f1f1f1}
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
     display: block;
-  }
-  
-  /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {
-    background-color: #333;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .hamburger-btn {
     color: white;
-  }
+}
 
 /* responsive media queries */
 
@@ -313,10 +306,14 @@ footer {
         display: none;
     }
 
-    .dropbtn {
+    /* Style The Dropdown Button */
+    .hamburger-btn {
         background-image: url('../img/menu-dark.png');
         background-repeat: no-repeat;
-        border: #333 solid 1px;
+        padding: 16px;
+        font-size: 24px;
+        border: none;
+        cursor: pointer;
     }
 }
 

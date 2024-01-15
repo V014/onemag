@@ -293,13 +293,6 @@ footer {
 
     h1 {
         font-size: 24px;
-        font-family: 'Times New Roman', Times, serif;
-    }
-
-    img .about{
-        background-image: none;
-        background-image: url('../img/profile.png');
-        background-repeat: no-repeat;
     }
 
     .nav {
@@ -314,6 +307,11 @@ footer {
         font-size: 24px;
         border: none;
         cursor: pointer;
+    }
+
+    .about{
+        width: 250px;
+        height: 250px;
     }
 }
 

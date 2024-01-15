@@ -107,6 +107,14 @@ body {
     border-radius: 20px;
 }
 
+.blog:hover {
+    /* adds smooth transition of zoom in effect */
+    transition: ease-in 0.3s;
+    /* adds effect to zoom in subject */
+    transform: scale(1.6);
+    font-size: 24px;
+}
+
 .glass {
     margin-left: auto;
     margin-right: auto;
@@ -204,8 +212,14 @@ footer {
   
   /* The container <div> - needed to position the dropdown content */
   .dropdown {
-    position: relative;
-    display: auto;
+    position:relative;
+    /* display: auto; */
+    padding-top: 2%;
+    padding-left: 90%;
+    /* positions elements to the right and adds a line break */
+    display: flex; 
+    /* inverts the order of the list in the nav bar */
+    flex-direction: row-reverse;
   }
   
   /* Dropdown Content on brand (Hidden by Default) */
@@ -229,7 +243,7 @@ footer {
   
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-    background-color: #f1f1f1;
+    background-color: rgb(190, 151, 76);
 }
 
 /* Show the dropdown menu on hover */
@@ -244,22 +258,18 @@ footer {
 
 /* responsive media queries */
 
-/* Light mode styles */
+/* Light mode styles desktop */
 @media (prefers-color-scheme: light) {
     body{
-        background-color: #333;
+        background-image: (url('background'));
     }
 }
 
-/* dark mode styles */
+/* dark mode styles desktop */
 @media (prefers-color-scheme: dark) {
     body{
         color: white;
         background-image: url('../img/dark-background.jpg');
-    }
-
-    .dropbtn {
-        color: #333;
     }
 
     .nav li a {
@@ -288,7 +298,8 @@ footer {
 
     body {
         background-image: none;
-        background-color: burlywood;
+        background-image: url('../img/dark.jpg');
+        background-size: cover;
     }
 
     h1 {
@@ -299,6 +310,47 @@ footer {
         display: none;
     }
 
+    .about{
+        width: 250px;
+        height: 250px;
+    }
+
+    /* Light mode styles mobile*/
+    @media (prefers-color-scheme: light) {
+        /* Style The Dropdown Button */
+        .hamburger-btn {
+            background-image: url('../img/menu-dark.png');
+            background-repeat: no-repeat;
+            padding: 16px;
+            font-size: 24px;
+            border: none;
+            cursor: pointer;
+        }
+
+        body {
+            background-image: url('../img/light.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+
+    /* dark mode styles mobile*/
+    @media (prefers-color-scheme: dark) {
+        body{
+            color: white;
+            background-color:#737373;
+        }
+        
+        .hamburger-btn {
+            background-image: url('../img/menu-light.png');
+        }
+
+        /* Links inside the dropdown */
+        .dropdown-content a {
+            color: white;
+        }
+    }
+
     /* Style The Dropdown Button */
     .hamburger-btn {
         background-image: url('../img/menu-dark.png');
@@ -307,11 +359,6 @@ footer {
         font-size: 24px;
         border: none;
         cursor: pointer;
-    }
-
-    .about{
-        width: 250px;
-        height: 250px;
     }
 }
 

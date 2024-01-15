@@ -287,6 +287,14 @@ footer {
         margin-right: 15%;
     }
 
+    .blog:hover {
+        /* adds smooth transition of zoom in effect */
+        transition: ease-in 0.3s;
+        /* adds effect to zoom in subject */
+        transform: scale(1);
+        font-size: 20px;
+    }
+
     .blog-image {
         width: 200px;
         height: 200px;
@@ -353,7 +361,6 @@ footer {
 
     /* Style The Dropdown Button */
     .hamburger-btn {
-        background-image: url('../img/menu-dark.png');
         background-repeat: no-repeat;
         padding: 16px;
         font-size: 24px;

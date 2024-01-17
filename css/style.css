@@ -24,6 +24,13 @@ body {
 
 /* Navigation bar */
 
+.nav {
+    /* positions elements to the right and adds a line break */
+    display: flex; 
+    /* inverts the order of the list in the nav bar */
+    flex-direction: row-reverse; 
+}
+
 .nav li{
     /* positions elements in the navbar to the left */
     float: left; 
@@ -31,13 +38,6 @@ body {
 
 .nav ul {
     list-style: none; 
-}
-
-.nav {
-    /* positions elements to the right and adds a line break */
-    display: flex; 
-    /* inverts the order of the list in the nav bar */
-    flex-direction: row-reverse; 
 }
 
 .nav li a {
@@ -231,6 +231,7 @@ footer {
     z-index: 1;
     background: inherit; 
     backdrop-filter: blur(10px); 
+    border-radius: 20px;
 }
 
 /* Links inside the dropdown */
@@ -241,9 +242,14 @@ footer {
     display: block;
 }
 
+.dropdown-content .active-menu {
+    text-decoration: underline; 
+}
+
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
     background-color: rgb(190, 151, 76);
+    border-radius: 20px;
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */

@@ -281,6 +281,11 @@ footer {
 /* screens below 1024px such as tablets and mobile devices */
 @media all and (width < 1024px) {
 
+    .cover-image {
+        width: 298px;
+        height: 421px;
+    }
+
     /* Show the dropdown menu on hover */
     .dropdown:hover .dropdown-content {
         display: block;

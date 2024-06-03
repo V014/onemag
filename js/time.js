@@ -1,3 +1,5 @@
+window.onload = time();
+
 function time() {
   const currentTime = new Date().getHours();
   if (currentTime < 18) {

@@ -65,23 +65,5 @@
 <script src="js/jquery-2.2.4.min.js"></script> 
 <script src= "js/jquery.magnify.min.js"></script>
 <script src="js/countdown.js"></script>
-<!-- <script src="js/time.js"></script> -->
-<script>
-    function time() {
-  const currentTime = new Date().getHours();
-  if (currentTime < 18) {
-    greeting = "Good day";
-  } else {
-    greeting = "Good evening";
-    debugger
-  }
-  const timeElement = document.getElementById("#time");
-  timeElement.innerText = greeting;
-}
-</script>
-<script> 
-    $(document).ready(function () { 
-        $(".zoom").magnify(); 
-    }); 
-</script> 
+<script src="js/time.js"></script>
 </html>

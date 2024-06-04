@@ -4,7 +4,7 @@ window.onload = time();
 function time() {
   // get the current time in hours from the computer local timer
   const currentTime = new Date().getHours();
-  if (currentTime < 18) {
+  if (currentTime < 12) {
     greeting = "Good morning";
   } else if (currentTime < 18){
     greeting = "Good afternoon";

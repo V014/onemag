@@ -284,7 +284,7 @@ footer {
     width: 80%;
     background: rgb(223,223,223);
     border: 2px solid white;
-    border-radius: 12px;
+    border-radius: 30px;
     display: flex;
     justify-content: flex-start;
     color: rgb(39,39,39);
@@ -295,11 +295,27 @@ footer {
 #progress {
     background-color: rgb(124,255,119);
     width: 50%;
-    border-radius: 12px;
+    border-radius: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
 
+}
+
+#play {
+    width: 80%;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(244,104,104);
+    color: white;
+    margin-top: 20px;
+    padding: 20px;
+    font-weight: 900;
+    text-shadow: 2px 2px 10px 0px black;
+}
+
+#play:hover {
+    transform: scale(0.99);
 }
 
 /* screens below 1024px such as tablets and mobile devices */

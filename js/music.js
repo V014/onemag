@@ -8,7 +8,5 @@ document.onkeydown = function(event) {
   }
     else if (event.key === 'm' || event.key === 'M') {
     song.pause();
-  } else {
-    alert('Background feature unavailable!');
-  }
+  } 
 };

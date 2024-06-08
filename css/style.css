@@ -279,6 +279,14 @@ footer {
 }
 
 /* progress bar */
+#progressContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 250px;
+}
+
 #progressBar {
     height: 40px;
     width: 80%;
@@ -294,7 +302,7 @@ footer {
 
 #progress {
     background-color: rgb(124,255,119);
-    width: 50%;
+    width: 0%;
     border-radius: 30px;
     display: flex;
     justify-content: center;

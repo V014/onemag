@@ -88,8 +88,9 @@ body {
     height: 421px;
     margin-left: 1%;
     margin-right: 1%;
+    border-radius: 10px;
     /* adds shadow on blog image */
-    box-shadow: 10px 10px 20px -10px #333;
+    box-shadow: 10px 10px 20px -10px black;
 
 }
 
@@ -131,7 +132,7 @@ body {
 
 .blog-image:hover {
     /* adds shadow on blog image */
-    box-shadow: 10px 10px 20px -10px #333;
+    box-shadow: 10px 10px 20px -10px black;
     /* adds smooth transition of shadow */
     transition: box-shadow 0.3s ease-in;
     /* adds smooth transition of zoom in effect */

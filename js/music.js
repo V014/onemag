@@ -1,21 +1,12 @@
-const audioElement = document.getElementById("song");
-
-audioElement.addEventListener("timeupdate", function() {
-  const currentTime = audioElement.currentTime;
-  const duration = audioElement.duration;
-  const progress = (currentTime / duration) * 100;
-
-  // Update your progress bar or display here
-  console.log(`Song progress: ${progress}%`);
-});
-
-audioElement.addEventListener("play", function() {
-    console.log("Song is playing");
-  });
-  
-  audioElement.addEventListener("pause", function() {
-    console.log("Song is paused");
-  });
-
-audioElement.play(); // Play the song
-audioElement.pause(); // Pause the song
+const song = document.getElementById('song');
+// Plays music when user presses 'P" and stops the music using 'S' and 'M' pauses the music
+document.onkeydown = function(event) {
+  if (event.key === 'p' || event.key === 'P') {
+    song.play();
+  } else if (event.key === 's' || event.key === 'S') {
+    song.load();
+  }
+    else if (event.key === 'm' || event.key === 'M') {
+    song.pause();
+  } 
+};

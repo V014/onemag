@@ -64,10 +64,13 @@
             <label>Nature of magazine</label>
             <br />
             <select name="MagPrint" onchange="return price()">
+                <option id="Default">Choose Type</option>
                 <option id="Digital">Digital</option>
                 <option id="Physical">Physical</option>
             </select>
             <br />
+            <p><b><span id="Price">Price loading...</span></b></p>
+
             <input type="submit" value="Order" name="order" />
         </form>
     </div>

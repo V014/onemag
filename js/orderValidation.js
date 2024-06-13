@@ -7,10 +7,13 @@ function validateForm() {
   }
 
 function price() {
-  var x = document.forms["orderForm"]["MagPrint"].value;
-  if (x == "Physical") {
-    console.log('MK40000');
-  } else{
-    console.log('MK7000');
+  var selectedMagType = document.forms["orderForm"]["MagPrint"].value;
+  var price = document.getElementById("Price");
+  if (selectedMagType == "Physical") {
+    price.innerText = "Cost: Mk40,000";
+  } else if (selectedMagType == "Digital"){
+    price.innerText = "Cost: Mk7,000";
+  } else {
+    price.innerText = "Choose Magazine type!";
   }
 }

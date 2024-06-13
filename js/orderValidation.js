@@ -1,3 +1,4 @@
+// function that check if name is set
 function validateForm() {
     var x = document.forms["orderForm"]["name"].value;
     if (x == "") {
@@ -6,9 +7,11 @@ function validateForm() {
     }
   }
 
+  // function that displays the price of the selected magazine type
 function price() {
   var selectedMagType = document.forms["orderForm"]["MagPrint"].value;
   var price = document.getElementById("Price");
+  
   if (selectedMagType == "Physical") {
     price.innerText = "Cost: Mk40,000";
   } else if (selectedMagType == "Digital"){

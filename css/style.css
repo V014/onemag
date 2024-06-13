@@ -356,7 +356,8 @@ footer {
     @media (prefers-color-scheme: dark) {
         body{
             color: white;
-            background-color:rgb(25, 27, 38);
+            /* background-color:rgb(25, 27, 38); */
+            background-image: url('../img/dark-background.jpg');
         }
         
         .hamburger-btn {

@@ -5,7 +5,7 @@
 
 body {
     font-family: 'calibri';
-    background-image: url('../img/background.png');
+    background-image: url('../img/background.jpg');
     background-repeat: no-repeats;
     background-size: cover;
     background-position: bottom left;
@@ -263,7 +263,7 @@ footer {
 /* Light mode styles desktop */
 @media (prefers-color-scheme: light) {
     body{
-        background-image: (url('background'));
+        background-image: url('../img/background.jpg');
     }
 }
 
@@ -348,7 +348,7 @@ footer {
         }
 
         body {
-            background-color: white;
+            background-image: url('../img/background.jpg');
         }
     }
 

@@ -37,8 +37,9 @@
     <!-- content section -->
     <div class="content">
         <img src="img/downloads-icon.png" alt="download icon" class="icons"> 
-        <p><i>Fill in these details</i></p>    
-        <form method="post" action="#">
+        <p><i>Fill in these details</i></p> 
+
+        <form method="post" action="#" name="orderForm" onsubmit="return validateForm()">
             <label>Full Name</label>
             <br />
             <input type="text" placeholder="Your name" name="name" />
@@ -70,6 +71,7 @@
             <input type="submit" value="Order" name="order" />
         </form>
     </div>
+    <script src="js/orderValidation.js"></script>
     <footer>
         One Magazine All rights reserved &copy;2024
     </footer>

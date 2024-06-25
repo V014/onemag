@@ -283,8 +283,8 @@ footer {
 @media all and (width < 1024px) {
 
     .cover-image {
-        width: 298px;
-        height: 421px;
+        width: 255px;
+        height: 360px;
     }
 
     /* Show the dropdown menu on hover */
@@ -357,7 +357,10 @@ footer {
         body{
             color: white;
             /* background-color:rgb(25, 27, 38); */
-            background-image: url('../img/dark-background.jpg');
+            /* background-color: #343434; */
+            background: linear-gradient(200deg, #1c2c1e 0%, #616b62 45%, #2c3a2e 75.52%);
+            background-repeat: no-repeat;
+            background-attachment:fixed;
         }
         
         .hamburger-btn {

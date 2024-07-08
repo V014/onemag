@@ -42,19 +42,19 @@
         <form method="post" action="#" name="orderForm" onsubmit="return validateForm()">
             <label>Full Name</label>
             <br />
-            <input type="text" placeholder="Your name" name="name" required />
+            <input type="text" placeholder="Your name" name="name" />
             <br />
             <label>Delivery to</label>
             <br />
-            <input type="email" placeholder="Email Address" name="location" required />
+            <input type="email" placeholder="Email Address" name="location" />
             <br />
             <label>Contact details</label>
             <br />
-            <input type="number" placeholder="Phone number" name="contact" required />
+            <input type="number" placeholder="Phone number" name="contact" />
             <br />
             <label>Select issue</label>
             <br />
-            <select>
+            <select onchange="select_issue(id)">
                 <option id="Default">Choose Issue</option>
                 <option id="Business">Business</option>
                 <option id="Ecology">Ecology</option>
@@ -81,7 +81,7 @@
             <br />
             <p><b><span id="Price">Price loading...</span></b></p>
 
-            <input type="submit" value="Order" name="order" />
+            <button class="submit_button" value="Order" name="order">Order</button>
         </form>
             <!--        
             <table class="glass">
@@ -110,4 +110,5 @@
         One Magazine All rights reserved &copy;2024
     </footer>
 </body>
+<script src="js/orderValidation.js"></script>
 </html>

@@ -98,7 +98,6 @@ body {
     border-radius: 10px;
     /* adds shadow on blog image */
     box-shadow: 10px 10px 20px -10px black;
-
 }
 
 .row {
@@ -205,6 +204,21 @@ input, select{
     border-style: none;
     margin-bottom: 2%;
     width: 35%;
+}
+
+button.submit_button {
+    padding: 1%;
+    border-radius: 10px;
+    border-style: none;
+    margin-bottom: 2%;
+    width: 35%;
+}
+
+button.submit_button:hover {
+    /* adds shadow on submit button */
+    background-color: rgb(76, 175, 80);
+    color: white;
+    cursor: pointer;
 }
 
 /* formats footer */

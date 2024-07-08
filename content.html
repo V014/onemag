@@ -37,7 +37,53 @@
     <!-- content section -->
     <div class="content">
         <img src="img/downloads-icon.png" alt="download icon" class="icons"> 
-        <p><i>Order yours <b>Toady!</b></i></p>        
+        <p><i>Order yours <b>Toady!</b></i></p>
+
+        <form method="post" action="#" name="orderForm" onsubmit="return validateForm()">
+            <label>Full Name</label>
+            <br />
+            <input type="text" placeholder="Your name" name="name" required />
+            <br />
+            <label>Delivery to</label>
+            <br />
+            <input type="email" placeholder="Email Address" name="location" required />
+            <br />
+            <label>Contact details</label>
+            <br />
+            <input type="number" placeholder="Phone number" name="contact" required />
+            <br />
+            <label>Select issue</label>
+            <br />
+            <select>
+                <option id="Default">Choose Issue</option>
+                <option id="Business">Business</option>
+                <option id="Ecology">Ecology</option>
+            </select>
+            <br />
+            <label>Payment method</label>
+            <br />
+            <select>
+                <option id="Default">Choose method</option>
+                <option id="AirtelMoney">Airtel Money</option>
+                <option id="TnmMpamba">Tnm Mpamba</option>
+                <option id="Mo626">Mo626</option>
+                <option id="PayPal">PayPal</option>
+                <option id="HardCash">Hard Cash</option>
+            </select>
+            <br />
+            <label>Nature of magazine</label>
+            <br />
+            <select name="MagPrint" onchange="return price()">
+                <option id="Default">Choose Type</option>
+                <option id="Digital">Digital</option>
+                <option id="Physical">Physical</option>
+            </select>
+            <br />
+            <p><b><span id="Price">Price loading...</span></b></p>
+
+            <input type="submit" value="Order" name="order" />
+        </form>
+            <!--        
             <table class="glass">
                 <tr>
                     <th>Item</th>
@@ -58,6 +104,7 @@
                     <td><a href="order.html">Order</a></td>
                 </tr>
             </table>
+            -->
     </div>
     <footer>
         One Magazine All rights reserved &copy;2024

@@ -85,8 +85,10 @@
 <!-- Plays reading music -->
 <script src="js/music.js"></script>
 <script> 
-    $(document).ready(function () { 
-        $(".zoom").magnify(); 
+    $(document).ready(function () {
+        if(window.innerWidth > 768) {
+            $(".zoom").magnify(); 
+        } 
     }); 
 </script> 
 </html>

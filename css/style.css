@@ -314,7 +314,8 @@ footer {
     }
 
     .issues {
-        margin-left: 25%;
+        margin: 0 auto !important; /* horizontal centering */
+        display: block !important; /* make sure it's a block element */
     }
 
     .blog {

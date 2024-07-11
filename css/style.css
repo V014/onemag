@@ -76,7 +76,6 @@ body {
 /* targets body content like paragraphs */
 .content {
     text-align: center; 
-    display: flow-root;
 }
 
 .content h2 {
@@ -85,9 +84,7 @@ body {
 }
 
 .issues{
-    margin-bottom: 5%;
-    float: left;
-    margin: 5%;
+    margin-bottom: 10%;
 }
 
 .cover-image { /* cover image properties */
@@ -98,6 +95,10 @@ body {
     border-radius: 10px;
     /* adds shadow on blog image */
     box-shadow: 10px 10px 20px -10px black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
 .row {
@@ -311,10 +312,6 @@ footer {
 
     .content {
         height: auto;
-    }
-
-    .issues {
-        margin: 20%;
     }
 
     .blog {

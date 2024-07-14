@@ -6,3 +6,14 @@ achieve is awareness of the changing events in life far ahead of its time. There
 wise to be able to filter out the noise and concentrate on what really matters.
 
 <img src ="img/screenshots/home.png" alt="Homepage">
+
+# Features
+ - ### Image magnification on homepage
+  <img src ="img/screenshots/magnification.png" alt="Homepage">
+
+  This feature is only available on desktops or rather devices with a screen resolution over 1024px of width. This prevents the use of fingers to magnify content which gets blocked by the finger itself when reading. It works best using a mouse that disappears and leaves the magnification boundary.
+
+   - ### Responsiveness for mobile devices
+  <img src ="img/screenshots/responsive.png" alt="Homepage">
+
+  This feature triggers when the screen resolution is below 1024px of width. This removes the picture based background and replaces it with a gradient for better processing, it also removes image magnification on the homepage and also makes sure works are not too larger and images are not out of place.

@@ -36,8 +36,3 @@ wise to be able to filter out the noise and concentrate on what really matters.
   <img src ="img/screenshots/zooming.png" alt="Homepage">
 
   While not entirely a great discovery, it is worthy to note that if you happen to hover over text in the blog and about section, the text zooms in to read it better. This can also be triggered on mobile by simply tapping on the text itself. 
-
-- ### Reading the mag
-  <img src ="img/screenshots/reading.png" alt="Homepage">
-
-  When a user clicks the read button on the homepage, they are taken to another page which flips through it page of the magazine without redirecting them to another page, on desktop, not fully utilizing the entire screen but on mobile it makes sense because there is one page per view, this feature works just fine for now but will improve later in development.

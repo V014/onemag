@@ -17,3 +17,11 @@ wise to be able to filter out the noise and concentrate on what really matters.
   <img src ="img/screenshots/responsive.png" alt="Homepage">
 
   This feature triggers when the screen resolution is below 1024px of width. This removes the picture based background and replaces it with a gradient for better processing, it also removes image magnification on the homepage and also makes sure works are not too larger and images are not out of place.
+
+   - ### Count down timer
+  <img src ="img/screenshots/counter.png" alt="Homepage">
+
+  This feature shows a timer till which the next magazine is going to be released, giving the audience a timed expectation and duration of the next release. Beware, the counter could change at any moment, creating content is a large task. 
+
+   - ### Play music
+  While this feature is in its early stages, the website on the homepage and the reading pages is able to play music is you click the button "P" to play, "S" to stop and "M" to mute. Only Fur Elise by Beethoven will play but as development progresses, there will be a broader scope to choose from.

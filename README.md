@@ -25,3 +25,8 @@ wise to be able to filter out the noise and concentrate on what really matters.
 
    - ### Play music
   While this feature is in its early stages, the website on the homepage and the reading pages is able to play music is you click the button "P" to play, "S" to stop and "M" to mute. Only Fur Elise by Beethoven will play but as development progresses, there will be a broader scope to choose from.
+
+   - ### Reading the mag
+  <img src ="img/screenshots/reading.png" alt="Homepage">
+
+  When a user clicks the read button on the homepage, they are taken to another page which flips through it page of the magazine without redirecting them to another page, on desktop, not fully utilizing the entire screen but on mobile it makes sense because there is one page per view, this feature works just fine for now but will improve later in development. 

@@ -13,6 +13,10 @@ wise to be able to filter out the noise and concentrate on what really matters.
 
   This feature is only available on desktops or rather devices with a screen resolution over 1024px of width. This prevents the use of fingers to magnify content which gets blocked by the finger itself when reading. It works best using a mouse that disappears and leaves the magnification boundary.
 
+- ### Live screenshot
+  <video src ="vid/OneMagScreenshot.mp4">
+  Nothing fancy, just some legacy JavaScript, nothing that apple liquid glass does but this was implemented in 2024.
+
 - ### Responsiveness for mobile devices
   <img src ="img/screenshots/responsive.png" alt="Homepage">
 

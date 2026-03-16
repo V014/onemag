@@ -5,11 +5,13 @@
 
 body {
     font-family: 'calibri';
-    background-image: url('../img/background.jpg');
+    /* background-image: url('../img/background.jpg');
     background-repeat: no-repeats;
     background-size: cover;
     background-position: bottom left;
     background-attachment: fixed;
+     */
+    background-color: #FFFFFF;
 } 
 
 /* .drop-cap::first-letter {
@@ -277,7 +279,8 @@ footer {
 /* Light mode styles desktop */
 @media (prefers-color-scheme: light) {
     body{
-        background-image: url('../img/background.jpg');
+        background-color: #FFFFFF;
+        /* background-image: url('../img/background.jpg'); */
     }
 }
 
@@ -285,7 +288,11 @@ footer {
 @media (prefers-color-scheme: dark) {
     body{
         color: white;
-        background-image: url('../img/dark-background.jpg');
+        background: linear-gradient(200deg, #1c2c1e 0%, #616b62 45%, #2c3a2e 75.52%);
+        background-repeat: no-repeat;
+        background-attachment:fixed;
+        /* background: #0E1217; */
+        /* background-image: url('../img/dark-background.jpg'); */
     }
 
     .nav li a {
@@ -362,7 +369,7 @@ footer {
         }
 
         body {
-            background-image: url('../img/background.jpg');
+            /* background-image: url('../img/background.jpg'); */
         }
     }
 

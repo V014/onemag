@@ -404,11 +404,15 @@ footer {
     }
 }
 
-/* screens below 1024px such as laptops and desktops */
+/* wide screens such as laptops and desktops */
 @media all and (width > 1024px) {
     .blog {
         margin-left: 25%;
         margin-right: 25%;
+    }
+
+    .issues {
+        flex: auto;
     }
 }
 

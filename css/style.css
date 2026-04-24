@@ -5,24 +5,8 @@
 
 body {
     font-family: 'calibri';
-    /* background-image: url('../img/background.jpg');
-    background-repeat: no-repeats;
-    background-size: cover;
-    background-position: bottom left;
-    background-attachment: fixed;
-     */
     background-color: #FFFFFF;
 } 
-
-/* .drop-cap::first-letter {
-    font-size: 3rem;
-    font-weight: 600;
-
-    float: left;
-    line-height: 2rem;
-
-    margin-right: 0.5rem;
-} */
 
 /* Navigation bar */
 
@@ -279,7 +263,7 @@ footer {
 /* Light mode styles desktop */
 @media (prefers-color-scheme: light) {
     body{
-        background-color: #FFFFFF;
+        /* background-color: #FFFFFF; */
         /* background-image: url('../img/background.jpg'); */
     }
 }
@@ -291,8 +275,6 @@ footer {
         background: linear-gradient(200deg, #1c2c1e 0%, #616b62 45%, #2c3a2e 75.52%);
         background-repeat: no-repeat;
         background-attachment:fixed;
-        /* background: #0E1217; */
-        /* background-image: url('../img/dark-background.jpg'); */
     }
 
     .nav li a {
@@ -377,8 +359,6 @@ footer {
     @media (prefers-color-scheme: dark) {
         body{
             color: white;
-            /* background-color:rgb(25, 27, 38); */
-            /* background-color: #343434; */
             background: linear-gradient(200deg, #1c2c1e 0%, #616b62 45%, #2c3a2e 75.52%);
             background-repeat: no-repeat;
             background-attachment:fixed;

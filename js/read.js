@@ -1,6 +1,16 @@
 let slideIndex = 1;
 showSlides(slideIndex);
 
+// Next/previous controls using right and left arrow keys
+document.onkeydown = function(event) {
+  if (event.key === 'ArrowRight') {
+    plusSlides(1);
+  }
+  if (event.key === 'ArrowLeft') {
+    plusSlides(-1);
+  }
+};
+
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
@@ -12,7 +22,7 @@ function currentSlide(n) {
 function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
+  let dots = document.getElementsByClassName("numbertext");
   if (n > slides.length) {slideIndex = 1}    
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {

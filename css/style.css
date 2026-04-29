@@ -85,7 +85,7 @@ body {
 
 /* adds blur for cover image to fully load first */
 .blur {
-    filter: blur(20px);
+    filter: blur(10px);
 }
 
 .row {

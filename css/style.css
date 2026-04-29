@@ -83,6 +83,11 @@ body {
     box-shadow: 10px 10px 20px -10px black;
 }
 
+/* adds blur for cover image to fully load first */
+.blur {
+    filter: blur(20px);
+}
+
 .row {
     text-align: center;
 }
@@ -391,4 +396,3 @@ footer {
         margin-right: 25%;
     }
 }
-

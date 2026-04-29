@@ -1,5 +1,5 @@
 let slideIndex = 1;
-showSlides(slideIndex);
+showSlides(slideIndex)
 
 // Next/previous controls using right and left arrow keys
 document.onkeydown = function(event) {
@@ -9,6 +9,12 @@ document.onkeydown = function(event) {
   if (event.key === 'ArrowLeft') {
     plusSlides(-1);
   }
+}
+
+// unblur cover image when it's fully loaded
+const coverImage = document.getElementById('cover-image');
+coverImage.onload = function() {
+  coverImage.classList.remove('blur');
 };
 
 function plusSlides(n) {

@@ -262,10 +262,7 @@ footer {
 
 /* Light mode styles desktop */
 @media (prefers-color-scheme: light) {
-    body{
-        /* background-color: #FFFFFF; */
-        /* background-image: url('../img/background.jpg'); */
-    }
+    
 }
 
 /* dark mode styles desktop */
@@ -349,10 +346,6 @@ footer {
             font-size: 24px;
             border: none;
             cursor: pointer;
-        }
-
-        body {
-            /* background-image: url('../img/background.jpg'); */
         }
     }
 

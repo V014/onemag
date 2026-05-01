@@ -272,9 +272,10 @@ footer {
 @media (prefers-color-scheme: dark) {
     body{
         color: white;
-        background: linear-gradient(200deg, #1c2c1e 0%, #616b62 45%, #2c3a2e 75.52%);
+        /* background: linear-gradient(200deg, #1c2c1e 0%, #616b62 45%, #2c3a2e 75.52%);
         background-repeat: no-repeat;
-        background-attachment:fixed;
+        background-attachment:fixed; */
+        background-color: #4e6351;
     }
 
     .nav li a {
@@ -359,9 +360,10 @@ footer {
     @media (prefers-color-scheme: dark) {
         body{
             color: white;
-            background: linear-gradient(200deg, #1c2c1e 0%, #616b62 45%, #2c3a2e 75.52%);
+            /* background: linear-gradient(200deg, #1c2c1e 0%, #616b62 45%, #2c3a2e 75.52%);
             background-repeat: no-repeat;
-            background-attachment:fixed;
+            background-attachment:fixed; */
+            background-color: #4e6351;
         }
         
         .hamburger-btn {
